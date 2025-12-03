@@ -1,0 +1,33 @@
+/* small helper overrides for a minimal light aesthetic */
+
+/* Page background and base text */
+:root {
+  --bg: #ffffff;
+  --muted: #64748b; /* text-slate-600 */
+  --text: #0f172a; /* text-slate-900 */
+  --border: #e6e6e6; /* border-slate-200 */
+  --accent: #0ea5a4; /* fallback accent */
+}
+
+html, body, #root {
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* subtle card shadows to keep minimal */
+.shadow-soft-lg {
+  box-shadow: 0 6px 18px rgba(13, 16, 30, 0.06);
+}
+
+/* unify rounded style */
+.rounded-3xl {
+  border-radius: 18px;
+}
+
+/* reduce heavy gradients and blurs where present */
+.bg-gradient-soft {
+  background: linear-gradient(180deg, rgba(14,165,164,0.06), rgba(99,102,241,0.03));
+}

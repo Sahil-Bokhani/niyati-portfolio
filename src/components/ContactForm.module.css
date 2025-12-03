@@ -1,0 +1,89 @@
+.formContainer {
+  border-radius: 1.5rem;
+  border: 1px solid rgb(30 64 175 / 0.1);
+  background-color: rgba(15, 23, 42, 0.9);
+  box-shadow: 0 20px 60px rgba(15, 23, 42, 0.9);
+  padding: 1.75rem;
+}
+
+@media (min-width: 768px) {
+  .formContainer {
+    padding: 2rem;
+  }
+}
+
+.formGrid {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .formGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.fullRow {
+  grid-column: 1 / -1;
+}
+
+.label {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: rgb(148 163 184);
+  margin-bottom: 0.25rem;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  border-radius: 9999px;
+  border: 1px solid rgb(51 65 85);
+  background-color: rgb(15 23 42);
+  color: rgb(248 250 252);
+  font-size: 0.85rem;
+  padding: 0.6rem 0.9rem;
+}
+
+.textarea {
+  border-radius: 1rem;
+  min-height: 110px;
+  resize: vertical;
+}
+
+.input:focus-visible,
+.textarea:focus-visible {
+  outline: 2px solid rgb(34 211 238);
+  outline-offset: 2px;
+  border-color: transparent;
+}
+
+.submitButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  background: rgb(249 115 22);
+  color: rgb(15 23 42);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background: rgb(234 88 12);
+}
+
+.submitButton:focus-visible {
+  outline: 2px solid rgb(34 211 238);
+  outline-offset: 2px;
+}
+
+.successMessage {
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+  color: rgb(52 211 153);
+}
