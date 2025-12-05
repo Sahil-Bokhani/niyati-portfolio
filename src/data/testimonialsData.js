@@ -1,16 +1,16 @@
 export const testimonials = [
   {
     id: 1,
-    name: 'Aarav K.',
-    role: 'Personal Brand Coach',
+    name: 'Kalpana Maheshwari - Kicksandgigglesphotography',
+    role: 'Maternity & Newborn Photographer',
     quote:
-      'Niyati helped me stay consistent with reels and my profile finally matches my professional image.',
+      'I hired Niyati Maheshwari to handle my social media page . She did an excellent job. From planning to making reel, making grid, and also carousel is her top quality work. The page that stand out and make a unique appearance after she started handing it. For reel she almost give multiple option to choose from so you font get stuck with one option. I really like enjoyed and loved her work. Though she is having one year of experience, she will definitely concurred this field with her dedication and passion. Wishing her best.',
   },
   {
     id: 2,
-    name: 'Dr. Meera P.',
-    role: 'Dental Practitioner',
+    name: 'Bandana Sharma',
+    role: 'Maternity & Newborn Photographer',
     quote:
-      'She turned my dental tips into engaging content that patients actually share and save.',
+      'Working with her has made managing my Instagram so effortless! She understands my style, creates beautiful content, and connects perfectly with my audience. My page finally reflects my work the way I always dreamed!',
   },
 ];
